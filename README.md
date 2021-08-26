@@ -1,8 +1,17 @@
-# Recoil &middot; [![NPM Version](https://img.shields.io/npm/v/recoil)](https://www.npmjs.com/package/recoil) [![Node.js CI](https://github.com/facebookexperimental/Recoil/workflows/Node.js%20CI/badge.svg)](https://github.com/facebookexperimental/Recoil/actions) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebookexperimental/Recoil/blob/master/LICENSE) [![Follow on Twitter](https://img.shields.io/twitter/follow/recoiljs?label=Follow%20Recoil&style=social)](https://twitter.com/recoiljs)
+# Forked Recoil &middot; [![NPM Version](https://img.shields.io/npm/v/recoil)](https://www.npmjs.com/package/recoil) [![Node.js CI](https://github.com/facebookexperimental/Recoil/workflows/Node.js%20CI/badge.svg)](https://github.com/facebookexperimental/Recoil/actions) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebookexperimental/Recoil/blob/master/LICENSE) [![Follow on Twitter](https://img.shields.io/twitter/follow/recoiljs?label=Follow%20Recoil&style=social)](https://twitter.com/recoiljs)
 
 Recoil is an experimental set of utilities for state management with React.
 
 Please see the website: https://recoiljs.org
+
+## Changes
+
+- Enable `recoil_early_rendering_2021` feature flag to fix https://github.com/facebookexperimental/Recoil/issues/1076
+
+Requires React with `useMutableSource` hook.
+https://github.com/reactwg/react-18/discussions/9#discussioncomment-855805
+
+Tested with react@18.0.0-alpha-edfe50510-20210823
 
 ## Installation
 
